@@ -4,6 +4,7 @@ from rasa_core.interpreter import RasaNLUInterpreter
 import yaml
 from rasa_core.utils import EndpointConfig
 
+# Created by Mayukh Maiti
 
 nlu_interpreter = RasaNLUInterpreter('./models/nlu/default/weathernlu')
 action_endpoint = EndpointConfig(url="http://localhost:5055/webhook")

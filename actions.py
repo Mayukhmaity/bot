@@ -5,6 +5,8 @@ from __future__ import unicode_literals
 from rasa_core_sdk import Action
 from rasa_core_sdk.events import SlotSet
 
+# Created by Mayukh Maiti
+
 class ActionWeather(Action):
 	def name(self):
 		return 'action_weather'
