@@ -44,6 +44,10 @@ The process of running the online session is very similar to training the Rasa C
 
 The webhook is created automatically by http://localhost/webhooks/rest/webhook
 
+Running the model:
+
+python -m rasa_core.run -d models/dialogue -u models/nlu/current
+
 
 
 
